@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .gridcontainer{
+            width:60vw;
+            height:50vh;
+            background-color: aqua;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr) 4fr;
+            grid-template-rows: 2fr 1fr 1fr 3fr; 
+            
+        }
+        .box{
+            background-color:orangered;
+            border:3px solid black;
+        }
+    </style>
+</head>
+<body>
+    <div class="gridcontainer">
+        <div class="box" style="grid-column: 1/4; grid-row:1/3">this is our first item</div>
+        <div class ="box"style="grid-column: 4/6; grid-row: 1/span3">this is our first item</div>
+        <div class="box" style="grid-column: -1/-3;">this is our first </div>
+        <div class ="box">this is our first </div>
+        <div class="box">this is our first </div>
+        <div class ="box">this is our first </div>
+        <div class="box">this is our first </div>
+        <div class ="box">this is our first </div>
+        <div class="box">this is our first </div>
+        <div class ="box">this is our first </div>
+        <div class="box">this is our first </div>
+        <div class ="box">this is our first </div>
+        <div class="box">this is our first </div>
+        <div class ="box">this is our first </div>
+        <div class="box">this is our first </div>
+        <div class ="box">this is our first </div>
+    </div>
+</body>
+</html>

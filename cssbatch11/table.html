@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <title>Table</title>
+    <style>
+   table{
+    border:1px solid black;
+    border-collapse: collapse;
+   }
+    tr{
+       
+    }
+    th,td{
+        border:1px solid black;
+        width:100px;
+        height:100px;
+       
+    }
+    .odd{
+        background-color: yellowgreen;
+    }
+    .even{
+        background-color: green;
+    }
+
+    thead th:nth-child(even){
+        background-color: aqua;
+    }
+    thead th:nth-child(odd){
+        background-color: blue;
+    }
+    tr td:nth-child(even){
+        background-color: orange;
+    }
+    tr td:nth-child(odd){
+        background-color: yellowgreen;
+    }
+
+    
+    </style>
+     
+   
+
+</head>
+<body>
+    <table>
+        <thead>
+            <!-- <colgroup>
+                <col class="odd"/>
+                <col class ="even"/>
+                <col class="odd"/>
+                <col class="even"/>
+            </colgroup> -->
+            <tr>
+                <th >first col</th>
+                <th  >second col</th>
+                <th >third col</th>
+                <th >fourth col </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td >item 1</td>
+                <td >item 2</td>
+                <td >item 3</td>
+                <td >item 4</td>
+            </tr>
+            <tr>
+                <td >item 1</td>
+                <td>item 2</td>
+                <td >item 3</td>
+                <td>item 4</td>
+            </tr>
+            <tr>
+                <td >item 1</td>
+                <td>item 2</td>
+                <td >item 3</td>
+                <td >item 4</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td class="odd">foot 1</td>
+                <td class="even">foot 2</td>
+                <td class="odd">foot 3</td>
+                <td class="even">foot 4</td>
+            </tr>
+        </tfoot>
+
+    </table>
+</body>
+</html>
