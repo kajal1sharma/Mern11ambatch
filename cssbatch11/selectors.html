@@ -1,9 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>Document</title>
+    <title>Selectors</title>
+    <style>
+        /* .container{
+            border:1px solid red;
+            width:200px;
+            height:200px;
+            background-color: pink;
+        }
+        #div1{
+            border:5px solid black;
+        } */
+
+        /* div{
+            background-color: aqua;
+            width:300px;
+            height:300px;
+            border:1px solid black;
+        }
+       p, span{
+        color: red;
+       } */
+
+       /* .siblings p{
+         color:blue;
+       } */
+
+       /* .siblings > p{
+        color: red;
+       }
+
+       #para1 + p{
+        color:greenyellow;
+       } */
+
+       /* #para1 ~ p{
+        color:#ff0000;
+       } */
+
+       /* #para1~div>p{
+            color:red;
+       } */
+       /* ul{
+        font-size: 20px;
+       }
+      h1+ul > li:nth-child(3){
+        font-size: 32px;
+        border:5px solid red;
+       }
+
+       li:nth-child(3){
+        font-size: 32px;
+        border:5px solid red;
+       } */
+
+       /* li:nth-child(n){
+        color:green;
+        background-color: greenyellow;
+       } */
+       /* li:nth-child(-n+3){
+        color:green;
+        background-color: greenyellow;
+       }
+       li:nth-last-child(-n+3){
+        background-color: red;
+       } */
+       /* li:nth-child(even){
+        background-color: pink;
+       } */
+        
+       div::after{
+        content: " ";
+        width:200px;
+        height:200px;
+        background-color: red;
+        position:absolute;
+        top:0px;
+        left:90vh;
+       }
+       div::before{
+        
+       }
+    </style>
 </head>
 <body>
-    
+    <div></div>
+    <div style="border:2px solid black">
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti suscipit porro ipsam dolorem, doloremque id itaque totam corrupti tempore eligendi sint ullam minima delectus odit iste? Aliquam ex porro animi./</p>
+</div>
+    <!-- <h1>header</h1>
+    <ul >
+        <li>list item 1</li>
+        <li>list item 2</li>
+        <li >list item 3</li>
+        <li>list item 4</li>
+        <li>list item 5</li>
+    </ul>
+    <ul >
+        <li>list item 1</li>
+        <li>list item 2</li>
+        <li >list item 3</li>
+        <li>list item 4</li>
+        <li>list item 5</li>
+    </ul> -->
+
+    <!-- <div class="container" id="div1">
+
+    </div>
+    <div class="container">
+
+    </div>
+    <span>text 1</span>
+    <span>text 2</span>
+    <p>text 3</p> -->
+    <!-- <div class="siblings">
+
+        <p id="para1">para 1 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur non commodi, unde soluta mollitia vel sint sed quibusdam quam omnis impedit tenetur quod quisquam repudiandae? At nesciunt optio quod recusandae?</p>
+        <p> para 2 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, repellat. Nostrum aspernatur, quos vitae et in illo natus voluptatem doloremque dolorum inventore perspiciatis accusamus, impedit rem repellendus voluptates exercitationem fuga!</p>
+        <p>para 3Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolores, illum cum suscipit eligendi aperiam nostrum fugit. Voluptates, accusantium quae expedita aperiam quod maxime dicta perspiciatis ut veritatis hic ullam voluptate!</p>
+        <div>
+            <p> para 4 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum quae cupiditate nam, consequatur aperiam est minima mollitia fugiat optio ducimus recusandae voluptatum labore quis, architecto facere similique accusamus quo! Harum.</p>
+        </div>
+    </div>
+    <p> para 5 Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad dignissimos eius nam corrupti fugiat tempora modi. Esse, voluptatum ut expedita necessitatibus magni libero repudiandae accusantium recusandae excepturi hic, saepe unde.</p> -->
+
+
 </body>
 </html>
