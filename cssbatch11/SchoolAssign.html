@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="schoolstyle.css">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <h1>BrandName</h1>
+        <div class="hamburger"  onclick="(function(){
+            //find out the current display
+            let display= document.getElementById('list').style.display;
+            
+            //comparision
+            if(display==='block'){
+                display='none'
+            }
+            else{
+                display='block'
+            }
+            document.getElementById('list').style.display=display;
+        })()">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <ul id="list">
+            <li>Home</li>
+            <li>Product</li>
+            <li>Pricing</li>
+            <li>Contact</li>
+            <li>Login</li>
+            <li>Join Us</li>
+        </ul>
+       
+    </header>
+</body>
+</html>
