@@ -1,11 +1,49 @@
 /* //desktop */
+#herosection{
+    width:50vw;
+    height:60vh;
+    margin-left: 10vw;;
+    padding-top: 10vh;
+}
+#herosection>h3{
 
+    font-size: 60px;;
+}
+#herosection>h2{
+    color:rgba(150, 187, 124, 1);;
+    font-size: 16px;
+}
+#herosection>p{
+    color:gray;
+}
+#herosection>button{
+    padding:15px 30px;
+    border-radius: 5px;
+}
+#herosection>button:nth-of-type(1){
+    background-color: rgba(150, 187, 124, 1);
+    color:white;
+    border:none;
+    margin-right: 20px;
+    font-weight: 800;
+}
+#herosection>button:last-child{
+    border:2px solid rgba(150, 187, 124, 1);
+    color: rgba(150, 187, 124, 1);
+}
 
+#hero{
+    display: block;
+    position: absolute;
+    width:100vw;
+    height:100vh;
+    z-index:-1 ;
+}
 header{
     height:90px;
     background-color: white;
     display: flex;
-    border:1px solid black;
+
     gap:5vw;
     
 }
@@ -35,20 +73,21 @@ header>ul>li:nth-last-child(1){
     font-weight: 700;
 
 }
-body article:first-child{
+body article:nth-child(2){
     display: flex;
     justify-content: space-around;
     align-items: center;
 
     
 }
-body article:first-child>section{
+body article:nth-child(2)>section{
+    background-color: white;
     width:300px;
     padding: 30px 50px;
-    border:1px solid black;
+    border-radius:5px;
     box-shadow: 0px 0px 10px grey;
 }
-h2::after{
+article:nth-child(2) h2::after{
     content: " ";
     width:50px;
     display: block;
@@ -72,9 +111,11 @@ h2::after{
 }
 
 
-
 @media screen and (max-width:400px) {
 
+    #hero{
+        display:none;
+    }
     
     header{
         display: flex;
@@ -124,15 +165,17 @@ h2::after{
     }
 
     body article:first-child{
+       margin-top: 30px;
         display: flex;
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
+        gap:20px;
     
         
     }
     body article:first-child>section{
-        width:300px;
+        width:100vw;
         padding: 30px 50px;
         border:1px solid black;
         box-shadow: 0px 0px 10px grey;
@@ -140,9 +183,22 @@ h2::after{
     h2::after{
         content: " ";
         width:50px;
+        margin-left: 10px;
         display: block;
         border:3px solid red;
     
+    }
+    h2{
+        margin-left: 10px;
+    }
+    .card__image{
+        margin-left: 20px;
+        margin-top:10px;
+    }
+    .card__para{
+        margin-left: 10px;
+        color:grey;
+        letter-spacing: 1px;
     }
     
 }
