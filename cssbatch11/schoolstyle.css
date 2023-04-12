@@ -1,4 +1,20 @@
 /* //desktop */
+
+.productimage{
+    width:200px;
+    height:200px;
+}
+.productcontainer::after{
+    content: "sale";
+    background-color: red;
+    position: relative;
+    top:-400px;
+    left:0px;
+    padding:10px;
+    color:white;
+    z-index: 1;
+}
+
 #herosection{
     width:50vw;
     height:60vh;

@@ -5,13 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="schoolstyle.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>Document</title>
 </head>
 <body>
     <img  id="hero" src="./resources/hero.png" />
     <header>
-        
-        <h1>BrandName</h1>
+       
+        <h1>BrandName<i class="fa-brands fa-facebook-f" style="color: #1f5125;"></i>
+            <span class="sr-only">Loading...</span></h1>
         <div class="hamburger"  onclick="(function(){
             //find out the current display
             let display= document.getElementById('list').style.display;
@@ -72,7 +74,104 @@
                     small-scale behaviour.</p>
             </section>
         </article>
-    </main>
 
+        <div style="display:flex;flex-direction: row;justify-content: center;">
+            <input style="padding:20px 10px;width:200px">
+            <button style="padding:20px 20px; background-color: green;">Submit</button>
+        </div>
+
+        <section style="display: flex;flex-direction: row; justify-content: space-evenly;">
+            <article style="border:3px solid black">
+                <div class="productcontainer">
+                    <img class="productimage" src="./resources/product.png" alt="pencil" />
+                    
+                    <div class="productcard"> 
+                        <div>
+                            <h4>Expert Instruction</h4>
+                            <span style="padding:10px 20px ;border-radius: 15px;background-color: black;color:white " class="star">4.9<i class="fa-solid fa-star fa-xs" style="color: #e8d930;"></i></span>
+
+                        </div>
+                        <div>
+                            <p>Every Client Matters</p>
+                            <p>We focus on ergonomics and<br/> meeting you</p>
+                            <p><i></i>15 salses</p>
+                            <p>$16.48 <span style="color:orange">$5.56</span></p>
+                            <div style="margin:auto;border:1px solid ;width:100px;border-radius: 25px;padding:10px 20px; border-color: rgb(85, 255, 0);color:rgb(30, 255, 0) ">Learn More </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </article>
+
+            <article style="border:3px solid black">
+                <div class="productcontainer">
+                    <img class="productimage"  src="./resources/product.png" alt="pencil" />
+                    <div class="productcard"> 
+                        <div>
+                            <h4>Expert Instruction</h4>
+                            <span class="star">4.9<i class="fa-solid fa-star fa-xs" style="color: #e8d930;"></i></span>
+
+                        </div>
+                        <div>
+                            <p>Every Client Matters</p>
+                            <p>We focus on ergonomics and<br/> meeting you</p>
+                            <p><i></i>15 salses</p>
+                            <p>$16.48 <span>$5.56</span></p>
+                            <button>Learn More </button>
+                        </div>
+
+                    </div>
+
+                </div>
+            </article>
+
+            <article style="border:3px solid black">
+                <div class="productcontainer">
+                    <img class="productimage"  src="./resources/product.png" alt="pencil" />
+                    <div class="productcard"> 
+                        <div>
+                            <h4>Expert Instruction</h4>
+                            <span class="star">4.9<i class="fa-solid fa-star fa-xs" style="color: #e8d930;"></i></span>
+                        </div>
+                        <div>
+                            <p>Every Client Matters</p>
+                            <p>We focus on ergonomics and<br/> meeting you</p>
+                            <p><i></i>15 salses</p>
+                            <p>$16.48 <span>$5.56</span></p>
+                            <button>Learn More </button>
+                        </div>
+
+                    </div>
+
+                </div>
+            </article>
+
+            <article style="border:3px solid black">
+                <div class="productcontainer">
+                    <img class="productimage"  src="./resources/product.png" alt="pencil" />
+                    <div class="productcard"> 
+                        <div>
+                            <h4>Expert Instruction</h4>
+                            <span class="star">4.9<i class="fa-solid fa-star fa-xs" style="color: #e8d930;"></i></span>
+
+                        </div>
+                        <div>
+                            <p>Every Client Matters</p>
+                            <p>We focus on ergonomics and<br/> meeting you</p>
+                            <p><i></i>15 salses</p>
+                            <p>$16.48 <span>$5.56</span></p>
+                            <button>Learn More </button>
+                        </div>
+
+                    </div>
+
+                </div>
+            </article>
+        </section>
+    </main>
+    <footer style="height:200px;background-color: antiquewhite;">
+
+    </footer>
 </body>
 </html>
