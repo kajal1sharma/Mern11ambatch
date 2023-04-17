@@ -1,6 +1,8 @@
 .container{
     background-color: pink;
-    width:100vw;
-    height:20vh;
+    border:1px solid black;
+}
+.container-fluid{
+    background-color: brown;
     border:1px solid black;
 }
