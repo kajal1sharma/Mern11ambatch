@@ -1,8 +1,23 @@
-.container{
-    background-color: pink;
-    border:1px solid black;
+.box{
+
+    border:5px solid black;
+
 }
-.container-fluid{
-    background-color: brown;
+.container-sm{
+ background-color: aqua;
+    
+}
+
+
+.row1{
+    background-color: aqua;
+}
+
+.row2{
+    background-color:pink;
+}
+
+
+.column{
     border:1px solid black;
 }
