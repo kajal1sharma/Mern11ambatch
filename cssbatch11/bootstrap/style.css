@@ -1,9 +1,31 @@
-.box{
+.border1{
 
-    border:5px solid black;
+    border:2px solid black;
 
 }
-.container-sm{
+.button{
+    height:100px;
+
+}
+
+
+.box1{
+
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+.box2{
+
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+}
+.box3{
+    text-align: center;
+   
+    background-color: rgb(255, 252, 252);
+}
+
+/* .container-sm{
  background-color: aqua;
     
 }
@@ -20,4 +42,4 @@
 
 .column{
     border:1px solid black;
-}
+} */
