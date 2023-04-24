@@ -1,0 +1,21 @@
+.box1{
+    background-color: pink;
+
+    font-size: 2rem;
+}
+.box2{
+    background-color: rgb(46, 218, 178);
+    
+    font-size: 2rem;
+    
+}
+.box3{
+    color:white;
+    font-size: 2rem;
+    background-color: rgb(70, 18, 190);
+ 
+}
+
+.border1{
+    border:3px solid black;
+}
