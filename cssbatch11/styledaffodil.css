@@ -22,6 +22,7 @@ img{
 @media screen and (min-width : 600px) {
     img{
         width:250px;
+        
         height:250px;
     }
     .container{
@@ -56,7 +57,6 @@ img{
     }
     .container{
         
-        flex-direction: row;
         justify-content: space-evenly;
         flex-wrap: wrap;
         align-content: space-evenly;
