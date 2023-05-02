@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./bootstrap-5.3.0-alpha3-dist/css/bootstrap.css">
+    <script src="./bootstrap-5.3.0-alpha3-dist/js/bootstrap.bundle.js"></script>
+</head>
+<body>
+    <div class="container">
+
+        
+        <div class="row">
+
+            <div class="btn-group" role="group" aria-label="Button group with nested dropdown">
+                <button type="button" class="btn btn-primary">1</button>
+                <button type="button" class="btn btn-primary">2</button>
+              
+                <div class="btn-group" role="group">
+                  <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+                    Dropdown
+                  </button>
+                  <ul class="dropdown-menu">
+                    <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                    <li><a class="dropdown-item" href="#">Dropdown link</a></li>
+                  </ul>
+                </div>
+              </div>
+
+
+
+            <div class="btn-group p-5" role="group" aria-label="Basic radio toggle button group">
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio1" autocomplete="off" checked>
+                <label class="btn btn-outline-primary" for="btnradio1">Radio 1</label>
+              
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio2" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btnradio2">Radio 2</label>
+              
+                <input type="radio" class="btn-check" name="btnradio" id="btnradio3" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btnradio3">Radio 3</label>
+              </div>
+
+            <div class="btn-group p-5" role="group" aria-label="Basic checkbox toggle button group">
+                <input type="checkbox" class="btn-check" id="btncheck1" autocomplete="off">
+                <label class="btn btn-outline-success" for="btncheck1">Checkbox 1</label>
+              
+                <input type="checkbox" class="btn-check" id="btncheck2" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck2">Checkbox 2</label>
+              
+                <input type="checkbox" class="btn-check" id="btncheck3" autocomplete="off">
+                <label class="btn btn-outline-primary" for="btncheck3">Checkbox 3</label>
+              </div>
+            <div class=" col-6 btn-group-vertical  mx-5">
+                <button class="btn btn-outline-danger">button 1</button>
+                <a class="btn btn-outline-dark" href="/grid.html">button 2</a>
+                <input class="btn btn-outline-primary" type="reset"/>
+                <button class="btn btn-outline-danger">button 1</button>
+                <a class="btn btn-outline-dark" href="/grid.html">button 2</a>
+                <input class="btn btn-outline-primary" type="reset"/>
+            </div>
+            <div class="btn-toolbar col-12 p-5">
+                <div class=" btn-group  mx-5">
+                    <button class="btn btn-outline-danger">button 1</button>
+                    <a class="btn btn-outline-dark" href="/grid.html">button 2</a>
+                    <input class="btn btn-outline-primary" type="reset"/>
+                </div>
+                <div class="btn-group m-1">
+                        <button class="btn btn-outline-danger">button 1</button>
+                        <a class="btn btn-outline-dark" href="/grid.html">button 2</a>
+                        <input class="btn btn-outline-primary" type="reset"/>
+                </div>
+                <div class="btn-group m-1">
+                    <button class="btn btn-outline-danger">button 1</button>
+                    <a class="btn btn-outline-dark" href="/grid.html">button 2</a>
+                    <input class="btn btn-outline-primary" type="reset"/>
+            </div>
+            </div>
+
+            <div class="col-12 p-5 btn-group btn-group-lg">
+                <button class="btn btn-outline-danger">button 1</button>
+                <a class="btn btn-outline-dark" href="/grid.html">button 2</a>
+                <input class="btn btn-outline-primary" type="reset"/>
+           </div>
+            <div class="col-12 p-5 btn-group">
+                    <button class="btn btn-outline-danger">button 1</button>
+                    <a class="btn btn-outline-dark" href="/grid.html">button 2</a>
+                    <input class="btn btn-outline-primary" type="reset"/>
+            </div>
+            <div class="col-12 p-5 btn-group btn-group-sm">
+                <button class="btn btn-outline-danger">button 1</button>
+                <a class="btn btn-outline-dark" href="/grid.html">button 2</a>
+                <input class="btn btn-outline-primary" type="reset"/>
+           </div>
+            <div class="col-12 p-5 ">
+                <button class="btn btn-success active"> button-1</button>
+                <button class="btn  btn-primary"> button-2</button>
+                <button class="btn  btn-danger disabled"> button-1</button>
+            </div>
+            <div class="col-12 p-5" style="background-color: rgb(255, 255, 255);">
+                <button class="btn btn-primary">Button 1</button>
+                <button class="btn btn-secondary">Button 1</button>
+                <button class="btn btn-danger">Button 1</button>
+                <button class="btn btn-info">Button 1</button>
+                <button class="btn btn-success">Button 1</button>
+                <button class="btn btn-dark">Button 1</button>
+                <button class="btn btn-light">Button 1</button>
+                <button class="btn btn-link">Button 1</button>
+            </div>
+            <div class="col-12 p-5" style="background-color: rgb(0, 0, 0);">
+                <button class="btn btn-outline-primary">Button 1</button>
+                <button class="btn btn-outline-secondary">Button 1</button>
+                <button class="btn btn-outline-danger">Button 1</button>
+                <button class="btn btn-outline-info">Button 1</button>
+                <button class="btn btn-outline-success">Button 1</button>
+                <button class="btn btn-outline-dark">Button 1</button>
+                <button class="btn btn-outline-light">Button 1</button>
+                <button class="btn btn-outline-link">Button 1</button>
+            </div>
+            <div class="col-12 p-5" >
+                <button class="btn btn-lg btn-outline-primary">Button 1</button>
+                <button class="btn btn-outline-primary">Button 2</button>
+                <button class="btn btn-sm btn-outline-primary">Button 3</button>
+                <a href="#" class="btn btn-lg btn-success">button 4 </a>
+                <input type="submit" class="btn btn-sm btn-info">
+
+            </div>
+
+            <div class="col-2 p-5 d-grid">
+                <button class="btn btn-lg btn-success"> button-1</button>
+                <button class="btn  btn-primary"> button-2</button>
+                <button class="btn btn-sm btn-outline-danger"> button-1</button>
+            </div>
+
+        </div>
+
+    </div>
+</body>
+</html>
