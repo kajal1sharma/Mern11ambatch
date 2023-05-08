@@ -1,0 +1,29 @@
+/* //LoVe HAte
+//Link Visited Hover Active */
+A:link{
+    color:rgb(108, 219, 108);
+}
+A:visited{
+    color:pink;
+}
+A:hover{
+    color:blue;
+}
+A:active{
+    color:red;
+}
+
+
+
+/* 
+.doubt1, h3, #head2,#head3{
+    color:pink;
+}
+
+.doubt3, .doubt2, h2, #head3{
+    color:green
+}
+
+.doubt1, h1,h2,h3,#head2{
+    color:orange;
+} */

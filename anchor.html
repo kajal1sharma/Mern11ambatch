@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        :root{
+            --bg-color:green;
+        }
+        p{
+            color: var(--bg-color);
+        }
+        .box{
+            display: none;
+            position: absolute;
+            top:0px;
+        }
+      :hover {
+        display: block;
+      }
+      .box2:hover .box{
+        display: block;
+      }
+        
+    </style>
+</head>
+<body>
+
+    <div class="box2">
+        <img   o src="http://www.wallpapers13.com/wp-content/uploads/2015/12/Nature-Lake-Bled.-Desktop-background-image.jpg" width="300px" height="300px">
+    
+        <div  class="box" style="height:300px ;width:300px ;background-color: rgba(0, 0, 255, 0.4);">
+            text is written over it
+        </div>
+    </div>
+    
+   
+    <div style="display: flex;position: fixed;top:0;padding:50px"> 
+    <a href="#para1">link to para 1</a>
+    <a href="#para2">link to para 2</a>
+    <a href="#para3">link to para 3</a>
+    <a href="#para4">link to para 4</a>
+</div>
+    <p id="para1" style="width:100vw ;height:100vh ;margin-top:20px;background: linear-gradient(267deg, rgba(199,65,124,1) 17%, rgba(58,190,37,1) 91%);">
+       
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis blanditiis iste quasi, officiis enim asperiores dolor. Deserunt quo, nisi commodi tempora molestiae explicabo cumque beatae, eaque in eos, incidunt reiciendis!</p>
+    <p id="para2" style="width:100vw ;height:100vh ;margin-top:20px;background: linear-gradient(267deg, rgba(199,65,124,1) 10%, rgba(236,230,34,1) 38%, rgba(61,225,91,1) 63%, rgba(214,35,90,1) 76%, rgba(58,190,37,1) 96%);">
+        
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio eum minima deleniti odio. Accusamus, temporibus reiciendis? Ipsam repellendus beatae quam quae culpa deleniti, placeat quibusdam at exercitationem voluptatem! Dicta, harum?</p>
+    <p id="para3" style="width:100vw ;height:100vh ;margin-top:20px;background: radial-gradient(circle, rgba(199,65,124,1) 10%, rgba(236,230,34,1) 20%, rgba(61,225,91,1) 52%, rgba(214,35,90,1) 61%, rgba(58,190,37,1) 73%);">
+        
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro totam magnam ipsam numquam id maxime, illo eos magni laborum. Natus, ullam maxime. Id accusantium reiciendis adipisci porro, facere possimus fugiat.</p>
+    <p id="para4" style="width:100vw ;height:100vh ;margin-top:20px;background: rgb(199,65,124);
+    background: linear-gradient(167deg, rgba(199,65,124,1) 10%, rgba(236,230,34,1) 20%, rgba(61,225,91,1) 52%, rgba(214,35,90,1) 67%, rgba(58,190,37,1) 73%);
+    ">
+     Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque, eos qui, alias non similique iure, in labore molestias hic id vel omnis. Sed laborum quisquam ducimus aspernatur eaque, ipsa praesentium?</p>
+</body>
+</html>
