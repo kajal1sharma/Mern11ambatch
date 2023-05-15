@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .box1{
+            position: absolute;
+            width:300px;
+            height:5vh;
+            top:5vh;
+            left:10vw;
+            background-color: antiquewhite;
+            animation-name: first-animation;
+            animation-timing-function:ease-in-out;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-direction:alternate;
+
+        }
+        .box2{
+            position: absolute;
+            width:300px;
+            height:5vh;
+            top:12vh;
+            left:10vw;
+            background-color: antiquewhite;
+            animation-name: first-animation;
+            animation-timing-function:linear;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-direction:alternate;
+
+        }
+        .box3{
+            position: absolute;
+            width:300px;
+            height:5vh;
+            top:20vh;
+            left:10vw;
+            background-color: antiquewhite;
+            animation-name: first-animation;
+            animation-timing-function:cubic-bezier(0.075, 0.82, 0.165, 1);
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-direction:alternate;
+
+        }
+        .box4{
+            position: absolute;
+            width:300px;
+            height:5vh;
+            top:30vh;
+            left:10vw;
+            background-color: antiquewhite;
+            animation-name: first-animation;
+            animation-timing-function:ease-in;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-direction:alternate;
+
+        }
+        .box5{
+            position: absolute;
+            width:300px;
+            height:5vh;
+            top:40vh;
+            left:10vw;
+            background-color: antiquewhite;
+            animation-name: first-animation;
+            animation-timing-function:ease-out;
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-direction:alternate;
+
+        }
+        .box6{
+            position: absolute;
+            width:300px;
+            height:5vh;
+            top:50vh;
+            left:10vw;
+            background-color: antiquewhite;
+            animation-name: first-animation;
+            animation-timing-function:steps(4);
+            animation-duration: 5s;
+            animation-iteration-count: infinite;
+            animation-direction:alternate;
+
+        }
+
+        @keyframes first-animation{
+            from {
+                width:300px;
+                background-color: red;
+            }
+            to{
+                width:1200px;
+                background-color: blue;
+            }
+        }
+
+
+    </style>
+
+</head>
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+    <div class="box3"></div>
+
+    <div class="box4"></div>
+    <div class="box5"></div>
+    <div class="box6"></div>
+
+</body>
+</html>
