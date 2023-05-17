@@ -1,6 +1,19 @@
 
-let numberOne = 23 ;
-let numberTwo = 45;
+// console.log(true && true); 
+ 
+// console.log(false && true)
+// console.log(true && false)
+// console.log(false && false)
+
+// console.log(true || true)
+// console.log(true || false)    
+// console.log(false || true)
+// console.log(false || false)
+
+// console.log(!true)
+// console.log(!false)
+//let numberOne = 23 ;
+//let numberTwo = 45;
 
 
 // console.log(34==='34');// types and value(strict type checking)
