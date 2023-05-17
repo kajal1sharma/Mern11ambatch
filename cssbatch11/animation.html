@@ -19,6 +19,7 @@
             animation-duration: 5s;
             animation-iteration-count: infinite;
             animation-direction:alternate;
+            transform: rotate(40deg);
 
         }
         .box2{
@@ -85,14 +86,43 @@
             left:10vw;
             background-color: antiquewhite;
             animation-name: first-animation;
-            animation-timing-function:steps(4);
+            animation-timing-function:steps(44,start);
             animation-duration: 5s;
-            animation-iteration-count: infinite;
+            animation-iteration-count: 4; 
             animation-direction:alternate;
 
         }
 
+
         @keyframes first-animation{
+
+            0%{
+                width:300px;
+                background-color: red;
+                transform: rotate(0deg);
+               
+            }
+            25%{
+                width:600px;
+                background-color: green; 
+                transform: rotate(10deg);
+               /* border-radius: 50%; */
+               
+            }
+            66%{
+                width:700px;
+                background-color: brown;
+                transform: rotate(40deg);
+            }
+            100%{
+                width:1200px;
+                background-color: yellow;
+                transform: rotate(100deg);
+            }
+
+        }
+
+        /* @keyframes first-animation{
             from {
                 width:300px;
                 background-color: red;
@@ -101,7 +131,7 @@
                 width:1200px;
                 background-color: blue;
             }
-        }
+        } */
 
 
     </style>
@@ -109,12 +139,12 @@
 </head>
 <body>
     <div class="box1"></div>
-    <div class="box2"></div>
+    <!-- <div class="box2"></div>
     <div class="box3"></div>
 
     <div class="box4"></div>
     <div class="box5"></div>
-    <div class="box6"></div>
+    <div class="box6"></div> -->
 
 </body>
 </html>
