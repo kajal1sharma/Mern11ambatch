@@ -1,25 +1,71 @@
-let rain=true;
-let raincoat =false;
-let umbrella =true;
+
+let breakfast=prompt("have you done your breakfast")
+
+let str = breakfast==="yes" ? "you are strong " :"you are not strong"
+alert(str);
+// let breakfast =false
+
+// let str = breakfast===true ? "you are strong " : "you are not strong"
+// console.log(str);
 
 
-if(rain===true){
-     console.log("it is raining")
-     if(raincoat===true){
-        console.log("you can go out")
-     }
-     else{
-        if(umbrella===true){
-            console.log("you can go out")
-        }
-        else{
-            console.log("you cannot go out")
-        }
-     }
-}
-else{
-    console.log("you can go it is not raining")
-}
+
+//ternary operator
+// (5-6)+(2+3)=-1+5
+// let a = 2>3  ? 45+1 : 45-1
+// console.log(a);
+// exp1=>true false
+
+// let rain=true;
+// let raincoat =false;
+// let umbrella =false;
+
+// if(rain === true && raincoat===true){
+//     console.log("you can go out")
+// }
+// else if(rain===true && umbrella===true){
+//     console.log("you can go out")
+// }
+// else if(rain===false){
+//     console.log("you can go out")
+// }
+// else{
+//     console.log("you cannot go out")
+// }
+
+
+// if(rain===true){
+//     console.log("raining")
+// }
+// else if(raincoat===true){
+//     console.log("raincoat available")
+// }
+// else if(umbrella===true){
+//     console.log("umbrellla available")
+// }
+// else{
+//     console.log("not raining")
+// }
+
+
+
+// if(rain===true){
+//      console.log("it is raining")
+//      if(raincoat===true){
+//         console.log("you can go out")
+//      }
+//      else{
+//         if(umbrella===true){
+//             console.log("you can go out")
+//         }
+//         else{
+//             console.log("you cannot go out")
+//         }
+//      }
+// }
+// else{
+//     console.log("you can go it is not raining")
+// }
 
 
 
