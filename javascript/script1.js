@@ -1,4 +1,35 @@
 
+let rain =false;
+let umbrella =true;
+let raincoat = false;
+
+// console.log(rain&&umbrella || rain && raincoat)
+console.log((!rain|| umbrella) || (!rain || raincoat) )
+console.log(!rain || (umbrella||raincoat))
+
+// if(!rain || (umbrella||raincoat)){
+//     console.log(true)
+// }
+// else{
+//     console.log(false);
+// }
+
+// if(rain){
+//     if(umbrella){
+//         console.log(true)
+//     }
+//     else if(raincoat){
+//         console.log(true)
+//     }
+//     else{
+//         console.log(false)
+//     }
+// }
+// else{
+//     console.log(true)
+// }
+
+
 // console.log(true && true); 
  
 // console.log(false && true)
