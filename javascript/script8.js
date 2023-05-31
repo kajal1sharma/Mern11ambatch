@@ -49,14 +49,60 @@
 // console.log(str)
 
 //single argumnet
-let doIT = num=>num;
-let res= doIT(78);
-console.log(res)
+// let doIT = num=>{
+    
+//     return num
+// };
+// let res= doIT(78);
+// console.log(res)
 
-let doIt2 =(num, num2)=>{
-    let x=num+num2
-    return x;
+// let doIt2 =(num, num2)=>{
+//     let x=num+num2
+//     return x;
+
+// }
+
+// let res2= doIt2();
+
+// function sumArr(arr){
+
+//     let sum=0;
+//     for(let i=0;i<arr.length;i=i+1){
+//         sum=sum+arr[i];
+//     }
+
+//     return sum;
+// }
+// let arr=[1,2,3,4,5,5]
+// let sum =sumArr(arr)
+// console.log(sum);
+
+
+function add(a,b){
+    let c=a+b
+    return c;
+}
+
+function print(fn){
+
+    let result =fn(45,66);
+    console.log(result);
 
 }
 
-let res2= doIt2();
+print(add)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
