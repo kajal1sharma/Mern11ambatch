@@ -7,11 +7,11 @@
 
 
 
-function read(ele,i){
-    console.log(ele);
-}
+// function read(ele,i){
+//     console.log(ele);
+// }
 
-let arr=[12,122,23,4,62,6,6,7,6]
+// let arr=[12,122,23,4,62,6,6,7,6]
 // function for_each(fun){
 //     for(let i=0;i<arr.length;i++){
 //         fun(arr[i],i,arr)
@@ -20,16 +20,86 @@ let arr=[12,122,23,4,62,6,6,7,6]
 // for_each(read);
 
 
-console.log("/////////////////////////////")
+// console.log("/////////////////////////////")
 
-arr.forEach(read);
+// arr.forEach(read);
 
-let read2 = function(ele, index,arr){
-    console.log(ele, index,arr)
-  
+// let read2 = function(ele, index,arr){ 
+//     console.log(ele+"==>");
+// }
+
+// arr.forEach(read2);
+// //anonymous function
+
+
+
+// function read(ele, index, arr){
+//     console.log(ele,index)
+// }
+
+// read(12,2);
+// read(14,34);
+// read(15,34);
+
+// let arr=[1,2,3,4,5,6];
+
+// arr.forEach(read);
+
+
+// function for_each(read){
+//     for(let i=0;i<arr.length;i=i+1){
+//         read(arr[i],i, arr);
+//     }
+// }
+// for_each(read);
+
+
+
+let arr = [12,13,16,18];
+
+function every_imp(fnc)
+{
+    for(let i=0;i<arr.length;i++){
+        let bool=fnc(arr[i], i, arr);
+        if(bool===false){
+            return false;
+        }
+    }
+
+    return true;
 }
 
-arr.forEach(read2);
-//anonymous function
+
+let result = every_imp(function read(ele, index, arr){
+    if(ele%2==0){
+      return true;
+    }
+    else{
+      return false;
+    }
+})
+
+
+
+
+// let result = arr.every(function read(ele, index, arr){
+//       if(ele%2==0){
+//         return true;
+//       }
+//       else{
+//         return false;
+//       }
+// })
 
 console.log(result);
+
+
+
+
+
+
+
+
+
+
+
