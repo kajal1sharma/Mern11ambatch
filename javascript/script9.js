@@ -53,45 +53,61 @@
 // }
 // for_each(read);
 
+// let arr = [12,13,16,18];
+
+// function every_imp(fnc)
+// {
+//     for(let i=0;i<arr.length;i++){
+//         let bool=fnc(arr[i], i, arr);
+//         if(bool===false){
+//             return false;
+//         }
+//     }
+//     return true;
+// }
+// let result = every_imp(function read(ele, index, arr){
+//     if(ele%2==0){
+//       return true;
+//     }
+//     else{
+//       return false;
+//     }
+// })
 
 
-let arr = [12,13,16,18];
 
-function every_imp(fnc)
-{
-    for(let i=0;i<arr.length;i++){
-        let bool=fnc(arr[i], i, arr);
-        if(bool===false){
-            return false;
-        }
+
+let result = arr.every(function read(ele, index, arr){
+      if(ele%2==0){
+        return true;
+      }
+      else{
+        return false;
+      }
+})
+
+console.log(result);
+
+
+
+
+
+
+
+
+function print(index , ele, str){
+    console.log(index, ele, str);
+    if(index>5){
+        return ele;
     }
-
-    return true;
+    else{
+        return str;
+    }
 }
 
 
-let result = every_imp(function read(ele, index, arr){
-    if(ele%2==0){
-      return true;
-    }
-    else{
-      return false;
-    }
-})
-
-
-
-
-// let result = arr.every(function read(ele, index, arr){
-//       if(ele%2==0){
-//         return true;
-//       }
-//       else{
-//         return false;
-//       }
-// })
-
-console.log(result);
+//let result  = print(12,34,"hellow world");//fucntion call is an expression 
+console.log(print(12,34,"hellow world"));
 
 
 
